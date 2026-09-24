@@ -1,16 +1,15 @@
 {
-  "name": "Календар",
-  "short_name": "Календар",
-  "description": Мій зручний календар",
+  "name": "Планер",
+  "short_name": "Планер",
+  "description": "Простий календар-планер подій з нагадуваннями",
   "icons": [
-    {
-      "src": "LargeTile.scale-100.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
+    { "src": "LargeTile.scale-100.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "LargeTile.scale-100.png", "sizes": "512x512", "type": "image/png" }
   ],
-  "start_url": ".",
+  "start_url": "./index.html",
   "display": "standalone",
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff"
+  "theme_color": "#4B3F72",
+  "background_color": "#F6F4EE",
+  "scope": "./",
+  "id": "lgtm-calendar"
 }
