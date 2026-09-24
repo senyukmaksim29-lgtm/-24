@@ -1,6 +1,6 @@
 {
-  "name": "LGTM Approver",
-  "short_name": "LGTM Approver",
+  "name": "Календар",
+  "short_name": "Календар",
   "description": "A streamlined tool for managing and tracking code review approvals, helping developers maintain high quality and efficient workflows in their repositories.",
   "icons": [
     {
