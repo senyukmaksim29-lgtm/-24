@@ -444,6 +444,12 @@ scheduleAllUpcoming();
 setInterval(()=>{ scheduleAllUpcoming(); renderUpcoming(); }, 5*60*1000);
 
 renderGrid(); renderAgenda(); renderUpcoming();
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  });
+}
 </script>
 </body>
 </html>
